@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>KAMARU.ME</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: "Audiowide", sans-serif;
-            }
-        </style>
-    </head>
-
-    <body class="m-0 p-0 text-white">
-        <div class="w-full h-screen p-3 md:p-10">
-            <div class="relative bg-[#1c1c1c] rounded-3xl h-full border-2 border-gray-700 overflow-hidden">
-                <h1 class="m-10 text-3xl">K_</h1>
-
-                <!-- Text Left & Right -->
-                <div class="md:absolute top-1/2 transform -translate-y-1/2 w-full px-10 md:flex justify-between items-center z-10">
-
-                    <!-- Left Text -->
-                    <div class="md:text-left mt-48 sm:mt-0 text-center md:text-left">
-                        <h2 class="text-4xl md:text-5xl font-bold">I'm <br> Kamarudheen</h2>
-                    </div>
-
-                    <!-- Right Text -->
-                    <div class="md:text-right max-w-sm mt-10 md:mt-0 text-center md:text-right">
-                        <p class="text-lg">Web Developer & Tech Enthusiast</p>
-                        <p class="text-lg">Crafting the future, one line of code at a time.</p>
-                    </div>
-
+    <title>KAMARU.ME</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: "Audiowide", sans-serif;
+        }
+    </style>
+</head>
+<body class="m-0 p-0 text-white bg-white">
+    <div class="w-full p-3 md:p-10">
+        <!-- Hero Section -->
+        <div class="bg-[#1c1c1c] rounded-3xl min-h-screen border-2 border-gray-700 overflow-hidden relative mb-10">
+            <h1 class="m-10 text-3xl">K_</h1>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-center">
+                    <h2 class="text-4xl md:text-7xl font-bold mb-5">Hi, I'm</h2>
+                    <h2 class="text-4xl md:text-7xl font-bold">Kamarudheen</h2>
                 </div>
-
-                <!-- Image at the bottom -->
-                <img src="/images/me.png" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 max-w-2xl w-full object-contain" alt="Kamaru" />
             </div>
         </div>
-    </body>
+
+        <!-- About Section -->
+        <div class="bg-[#1c1c1c] rounded-3xl border-2 border-gray-700 overflow-hidden p-5 md:p-10 mb-10">
+            <h2 class="text-2xl font-bold mb-5">About Me</h2>
+            <p class="md:text-xl mb-5">I’m Kamarudheen CTO of Ecotonic Automation Solutions and Founder & CEO of RouteFense. I work where code, control, and chaos collide.</p>
+            <p class="md:text-xl mb-5">At Ecotonic, I lead tech innovation in smart automation building secure, intelligent systems for modern homes and businesses.</p>
+            <p class="md:text-xl mb-5">At RouteFense, we hunt vulnerabilities. I run black-box pentests and red team ops to simulate real world attacks and expose weaknesses.</p>
+            <p class="md:text-xl mb-5">I break systems to make them stronger whether in physical automation or digital warfare.</p>
+        </div>
+
+        <!-- My Roles Section -->
+        <!-- <div class="bg-[#1c1c1c] rounded-3xl border-2 border-gray-700 overflow-hidden p-5 md:p-10 mb-10">
+            <h2 class="text-2xl font-bold mb-5">My Roles</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="bg-[#2c2c2c] p-6 rounded-xl text-center text-xl font-semibold h-25 flex flex-col justify-center items-center">
+                    <span class="text-2xl font-bold">Ecotonic</span>
+                    <span class="text-lg mt-2">CTO</span>
+                </div>
+                <div class="bg-[#2c2c2c] p-6 rounded-xl text-center text-xl font-semibold h-25 flex flex-col justify-center items-center">
+                    <span class="text-2xl font-bold">RouteFense</span>
+                    <span class="text-lg mt-2">CEO</span>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Get in Touch -->
+        <div class="bg-[#1c1c1c] rounded-3xl border-2 border-gray-700 overflow-hidden p-5 md:p-10 mb-10">
+            <h2 class="text-2xl font-bold mb-5">Get in Touch</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-10 py-5 md:py-0">
+                <div class="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
+                    <a href="">
+                        <i class="fa-solid fa-phone text-white"></i>
+                        <span class="ml-3">+91 9400 711 976</span>
+                    </a>
+                </div>
+
+                <div class="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
+                    <a href="">
+                        <i class="fa-solid fa-envelope text-white"></i>
+                        <span class="ml-3">connect@kamaru.me</span>
+                    </a>
+                </div>
+
+                <div class="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
+                    <a href="">
+                        <i class="fa-brands fa-instagram text-white"></i>
+                        <span class="ml-3">kamaru.me</span>
+                    </a>
+                </div>
+
+                <div class="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
+                    <a href="">
+                        <i class="fa-solid fa-globe text-white"></i>
+                        <span class="ml-3">kamaru.me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#1c1c1c] rounded-3xl border-2 border-gray-700 overflow-hidden p-5 md:p-10 mb-5 text-center">
+            <p>&copy; 2025 Kamarudheen. All rights reserved.</p>
+        </div>
+    </div>
+</body>
 </html>
