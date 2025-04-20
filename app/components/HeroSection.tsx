@@ -9,7 +9,7 @@ const HeroSection = () => {
                 </div>
                 <div className='w-full h-full flex items-center justify-center'>
                     <h1 className="text-3xl md:text-7xl font-extrabold text-center">
-                        Hi, I'm <br /> Kamarudheen
+                        Hi, I&apos;m <br /> Kamarudheen
                     </h1>
                 </div>
             </div>
