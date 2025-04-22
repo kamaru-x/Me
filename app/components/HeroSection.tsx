@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const HeroSection = () => {
     return (

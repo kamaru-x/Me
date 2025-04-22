@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaLinkedin, FaEnvelope, FaGlobe } from 'react-icons/fa';
+import { FaPhoneAlt, FaInstagram, FaEnvelope, FaGlobe } from 'react-icons/fa';
 
 const SocialMedia = () => {
     return (
