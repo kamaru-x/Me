@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaLinkedin, FaEnvelope, FaGlobe } from 'react-icons/fa';
 
 const SocialMedia = () => {
     return (
@@ -10,26 +11,26 @@ const SocialMedia = () => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5  mt-5 md:mt-10">
                         <div className="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
-                            <a href="">
-                                <i className="fa-solid fa-phone text-white"></i>
+                            <a href="" className='flex space-x-2 items-center'>
+                                <FaPhoneAlt className="hover:text-gray-400 transition duration-300" />
                                 <span className="ml-3">+91 9400 711 976</span>
                             </a>
                         </div>
                         <div className="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
-                            <a href="">
-                                <i className="fa-solid fa-envelope text-white"></i>
+                            <a href="" className='flex space-x-2 items-center'>
+                            <FaEnvelope className="hover:text-gray-400 transition duration-300" />
                                 <span className="ml-3">connect@kamaru.me</span>
                             </a>
                         </div>
                         <div className="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
-                            <a href="">
-                                <i className="fa-brands fa-instagram text-white"></i>
+                            <a href="" className='flex space-x-2 items-center'>
+                                <FaInstagram className="hover:text-gray-400 transition duration-300" />
                                 <span className="ml-3">kamaru.me</span>
                             </a>
                         </div>
                         <div className="bg-[#2c2c2c] px-5 py-5 rounded-3xl text-xl font-semibold">
-                            <a href="">
-                                <i className="fa-solid fa-globe text-white"></i>
+                            <a href="" className='flex space-x-2 items-center'>
+                                <FaGlobe className="hover:text-gray-400 transition duration-300" />
                                 <span className="ml-3">kamaru.me</span>
                             </a>
                         </div>
