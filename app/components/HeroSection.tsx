@@ -15,8 +15,8 @@ const HeroSection = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full md:w-4/5">
                         {/* Text Section */}
                         <div className="flex flex-col justify-center text-center md:text-left text-white py-10">
-                            <p className="text-gray-100 text-xs mb-6">Hello! My name is</p>
-                            <h2 className="text-4xl font-bold mb-4 md:mb-12">Kamarudheen</h2>
+                            <p className="text-gray-100 text-xs mb-3">Hello! I am</p>
+                            <h2 className="text-4xl font-bold mb-8 md:mb-12">Kamarudheen</h2>
                             <p className="text-lg mb-6">
                                 Join us in making a difference through innovative solutions and community-driven initiatives.
                             </p>
