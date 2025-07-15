@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col">
+        <div className="w-full  flex flex-col">
             {/* Header */}
             <div className="p-5 w-full">
                 <h1 className="text-3xl font-extrabold text-black">K_</h1>

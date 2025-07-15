@@ -2,21 +2,20 @@ import React from 'react'
 
 const Initiatives = () => {
     return (
-        <div className="w-full p-3 md:px-6 text-black">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div className='w-full h-100 flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl'>
-                    <p className='text-2xl font-bold'>POSTCRAFT</p>
-                    <p>Social Media Management Platform</p>
+        <div className="w-full">
+            <div className='w-full bg-white text-black pb-12 md:pb-24'>
+                <div className="flex justify-center py-12 md:py-24">
+                    <h1 className='text-4xl md:text-5xl lg:text-8xl border-b-8 border-black inline-block'>
+                        INITIATIVES
+                    </h1>
                 </div>
-
-                <div className='w-full h-100 flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl'>
-                    <p className='text-2xl font-bold'>DEVTOOLS</p>
-                    <p>Developer Productivity Suite</p>
-                </div>
-
-                <div className='w-full h-100 flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl'>
-                    <p className='text-2xl font-bold'>CLOUDOPS</p>
-                    <p>Cloud Infrastructure Management</p>
+                <div className='bg-black text-white mx-6 md:mx-24 p-6 md:p-12 rounded-lg shadow-lg'>
+                    <div className='flex'>
+                        <p className='border-x-2 px-4'>
+                            2024 
+                        </p>
+                        <p className='px-5'>Started Working as CTO Ecotonic Automation Soultions</p>
+                    </div>
                 </div>
             </div>
         </div>
