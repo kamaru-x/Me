@@ -10,9 +10,11 @@ const AboutUs = () => {
                     </h1>
                 </div>
                 <div className='bg-white text-black mx-6 md:mx-24 p-6 md:p-12 rounded-lg shadow-lg'>
-                    <p className=''>
-                        I am a passionate software developer with a focus on creating innovative solutions that make a difference. My journey in technology is driven by a commitment to excellence and a desire to contribute positively to the community.
-                    </p>
+                    <div>
+                        <p className='text-center'>
+                            I am a passionate software developer with a focus on creating innovative solutions that make a difference. My journey in technology is driven by a commitment to excellence and a desire to contribute positively to the community.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

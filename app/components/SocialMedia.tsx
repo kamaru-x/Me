@@ -1,59 +1,95 @@
-import React from 'react'
-import { FaPhoneAlt, FaInstagram, FaEnvelope, FaWhatsapp, FaFacebook } from 'react-icons/fa';
+import React from 'react';
+import {
+    FaPhoneAlt,
+    FaInstagram,
+    FaEnvelope,
+    FaWhatsapp,
+    FaLinkedin,
+} from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
 
 const SocialMedia = () => {
     return (
-        <div className="w-full p-3 md:px-6 text-black">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                <div className='border-5 border-r-15 border-b-15 border-black rounded-3xl'>
-                    <h1 className='p-5 pb-0'>Send Message</h1>
-                    <form action="" className='p-5'>
-                        <input type="text"  className='rounded-2xl border-black border-2 w-full h-10 px-5 py-5' placeholder='Your Name'/>
-                        <input type="email" className='rounded-2xl border-black border-2 w-full h-10 px-5 py-5 mt-3' placeholder='Your Email' />
-                        <textarea className='rounded-2xl border-black border-2 w-full h-40 px-5 py-5 mt-3' placeholder='Your Message'></textarea>
-                        <button className='bg-black text-white rounded-2xl w-full h-10 mt-3 hover:bg-gray-800 transition-colors duration-300'>Send Message</button>
-                    </form>
-                </div>
-                <div>
-                    <div>
-                        <div className="flex items-center p-5 border-5 border-r-15 border-b-15 border-black rounded-3xl mb-4 hover:bg-gray-100 transition-colors duration-300">
-                            <FaInstagram className="text-pink-500 text-2xl mr-4" />
-                            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold">
-                                @kamaru.me
-                            </a>
-                        </div>
-                        <div className="flex items-center p-5 border-5 border-r-15 border-b-15 border-black rounded-3xl mb-4 hover:bg-gray-100 transition-colors duration-300">
-                            <FaWhatsapp className="text-green-500 text-2xl mr-4" />
-                            <a href="https://wa.me/yourwhatsapplink" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold">
-                                +91 9400 711 976
-                            </a>
-                        </div>
-                        <div className="flex items-center p-5 border-5 border-r-15 border-b-15 border-black rounded-3xl mb-4 hover:bg-gray-100 transition-colors duration-300">
-                            <FaFacebook className="text-blue-600 text-2xl mr-4" />
-                            <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold">
-                                Kamarudheen
-                            </a>
-                        </div>
+        <div className="w-full bg-white text-black pb-12 md:pb-24">
+            {/* Heading */}
+            <div className="flex justify-center py-12 md:py-24">
+                <h1 className="text-4xl md:text-5xl lg:text-7xl border-b-8 border-black inline-block">
+                    CONNECT ME
+                </h1>
+            </div>
+
+            {/* Contact Section */}
+            <div className="bg-black text-white mx-6 md:mx-24 p-6 md:p-12 rounded-2xl shadow-xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {/* Phone */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaPhoneAlt className="text-2xl text-black" />
+                        <a href="tel:+919400711976" className="text-lg font-medium hover:underline">
+                            +91 9400 711 976
+                        </a>
                     </div>
-                    <div className='grid grid-cols-3 gap-5'>
-                        <div className='flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl p-5'>
-                            <FaEnvelope className="text-blue-600 text-2xl mb-2" />
-                            <p>Email</p>
-                        </div>
-                        <div className='flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl p-5'>
-                            <FaPhoneAlt className="text-blue-600 text-2xl mb-2" />
-                            <p>Call</p>
-                        </div>
-                        <div className='flex flex-col items-center justify-center text-center border-5 border-r-15 border-b-15 border-black rounded-3xl p-5'>
-                            <FaLocationDot className="text-blue-600 text-2xl mb-2" />
-                            <p>Location</p>
-                        </div>
+
+                    {/* Email */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaEnvelope className="text-2xl text-black" />
+                        <a
+                            href="mailto:kamaru.office@gmail.com"
+                            className="text-lg font-medium hover:underline"
+                        >
+                            connect@kamaru.me
+                        </a>
+                    </div>
+
+                    {/* WhatsApp */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaWhatsapp className="text-2xl text-green-500" />
+                        <a
+                            href="https://wa.me/919400711976"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg font-medium hover:underline"
+                        >
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                    {/* Instagram */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaInstagram className="text-2xl text-pink-500" />
+                        <a
+                            href="https://instagram.com/kamaru.me"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg font-medium hover:underline"
+                        >
+                            @kamaru.me
+                        </a>
+                    </div>
+
+                    {/* Facebook */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaLinkedin className="text-2xl text-blue-500" />
+                        <a
+                            href="https://in.linkedin.com/in/kamarudheen-u"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg font-medium hover:underline"
+                        >
+                            Kamarudheen
+                        </a>
+                    </div>
+
+                    {/* Location */}
+                    <div className="bg-white text-black rounded-xl p-5 shadow-md flex items-center gap-4">
+                        <FaLocationDot className="text-2xl text-red-500" />
+                        <p className="text-lg font-medium">
+                            Kannur, Kerala, India
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default SocialMedia
+export default SocialMedia;

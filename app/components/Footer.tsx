@@ -2,9 +2,11 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="overflow-hidden p-3 md:px-6">
-            <div className="bg-white rounded-3xl border-5 border-r-15 border-b-15 border-black overflow-hidden p-5 md:p-10 mb-5 text-center">
-                <p className='text-lg md:text-xl text-black'>&copy; 2025 Kamarudheen. All rights reserved.</p>
+        <div className="w-full bg-black text-white">
+            <div className="flex justify-center py-12 md:py-24">
+                <h1 className="text-4xl md:text-5xl lg:text-7xl border-b-8 border-white inline-block">
+                    THE END
+                </h1>
             </div>
         </div>
     )
