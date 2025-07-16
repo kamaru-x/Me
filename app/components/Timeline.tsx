@@ -27,11 +27,6 @@ const Timeline = () => {
                             2022
                         </p>
                         <p className='px-6'>Joined Thycha Technologies as a Python Developer, gaining deeper experience in backend development.</p>
-                    </div><div className='flex my-12'>
-                        <p className='border-x-2 px-4 py-auto flex items-center'>
-                            2022
-                        </p>
-                        <p className='px-6'>Joined Thycha Technologies as a Python Developer, gaining deeper experience in backend development.</p>
                     </div>
                     <div className='flex my-12'>
                         <p className='border-x-2 px-4 py-auto flex items-center'>
